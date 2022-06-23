@@ -1,0 +1,4 @@
+.card-clientes-conteudo div.card-clientes-header .numero-cobrancas.clientes-inadimplentes {
+    color: var(--cor-apoio-letra-rosa);
+    background: var(--cor-apoio-container-rosa);
+}

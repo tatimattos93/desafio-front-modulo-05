@@ -1,0 +1,145 @@
+.container-cadastro {
+    min-height: 100vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+.container-status {
+    background-color: var(--cor-cinza-7);
+    height: 100vh;
+    width: 35%;
+    padding: 174px 50px 0;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.checagem-status {
+    height: 214px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-status {
+    height: 214px;
+    margin-left: 24px;
+}
+
+.texto-status h3 {
+    color: var(--cor-princical-verde-medio);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.texto-status span {
+    font-family: 'Nunito';
+    color: var(--cor-cinza-2);
+}
+
+.container-dados {
+    width: 65%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito';
+    position: relative;
+}
+
+.container-dados h2 {
+    color: var(--cor-cinza-1);
+    margin-bottom: 32px;
+}
+
+.form-cadastro-login {
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+}
+
+.form-cadastro-login label {
+    font-weight: 600;
+    color: var(--cor-cinza-1);
+    margin-bottom: 6px;
+}
+
+.form-cadastro-login input {
+    color: var(--cor-cinza-2);
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form-cadastro-login input::placeholder {
+    color: var(--cor-cinza-4);
+}
+
+.form-cadastro-login .container-senha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-cadastro-login .container-senha a {
+    all: unset;
+    box-sizing: border-box;
+
+    font-weight: 600;
+    color: var(--cor-cinza-1);
+    margin-bottom: 6px;
+    text-decoration-line: underline;
+    color: var(--cor-princical-rosa-medio);
+}
+
+
+.form-cadastro-login button {
+    align-self: center;
+}
+
+.container-inputSenha {
+    position: relative;
+}
+
+.container-inputSenha img {
+    position: absolute;
+    right: 16px;
+    top: 30px;
+}
+
+.container-inputSenha img.icone-senha-login {
+    top: 33px;
+}
+
+.cadastro-finalizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-dados span {
+    font-family: 'Nunito';
+    color: var(--cor-cinza-2);
+    align-self: center;
+}
+
+.container-dados span a {
+    color: var(--cor-princical-rosa-medio);
+    text-decoration: underline;
+}
+
+.barraStatus {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.cadastro-finalizado .img-cadastro-finalizado {
+    margin-top: 20px;
+    width: 50.0rem;
+}

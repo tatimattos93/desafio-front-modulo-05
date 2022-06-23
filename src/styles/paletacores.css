@@ -1,0 +1,44 @@
+body {
+--cor-princical-rosa-escuro: #75003B;
+--cor-princical-rosa-medio: #DA0175;
+--cor-princical-rosa-claro: #F5A8D0;
+
+--cor-princical-verde-escuro: #034A2A;
+--cor-princical-verde-medio: #0E8750;
+--cor-princical-verde-claro: #ACD9C5;
+
+--cor-apoio-letra-rosa: #971D1D;
+--cor-apoio-container-rosa: #FFEFEF;
+--cor-apoio-tag-rosa: #E8CACA;
+
+--cor-apoio-letra-amarelo: #C5A605;
+--cor-apoio-container-amarelo: #FCF6DC;
+--cor-apoio-tag-amarelo: #E3DEC8;
+
+--cor-apoio-letra-azul: #1FA7AF;
+--cor-apoio-container-azul: #EEF6F6;
+--cor-apoio-tag-azul: #D2DFE0;
+
+--cor-feedback-letra-toast-azul: #243F80;
+--cor-feedback-azul-medio: #4F78E3;
+--cor-feedback-fundo-toast-azul: #C3D4FE;
+
+--cor-feedback-letra-toast-amarelo: #CC7800;
+--cor-feedback-amarelo-medio: #EF8F00;
+--cor-feedback-fundo-toast-amarelo: #F5D9B0;
+
+--cor-feedback-letra-toast-vermelho: #AE1100;
+--cor-feedback-erro-vermelho: #E70000;
+--cor-feedback-fundo-toast-rosa: #F2D6D0;
+--cor-feedback-erro-busca-rosa-escuro: #F48C8C;
+--cor-feedback-erro-busca-rosa-claro: #F5BDB2;
+
+--cor-cinza-1: #343447;
+--cor-cinza-2: #3F3F55;
+--cor-cinza-3: #747488;
+--cor-cinza-4: #9B9BB2;
+--cor-cinza-5: #C8C8D7;
+--cor-cinza-6: #DEDEE9;
+--cor-cinza-7: #F0F0F5;
+--cor-cinza-8: #F8F8F9;
+}

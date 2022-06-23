@@ -1,0 +1,30 @@
+.modal-sucesso, .modal-erro {
+    background: var(--cor-feedback-fundo-toast-azul);
+    color: var(--cor-feedback-letra-toast-azul);
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+
+.modal-erro {
+    background: var(--cor-feedback-fundo-toast-rosa);
+    color: var(--cor-feedback-letra-toast-vermelho);  
+}
+
+.modal-sucesso .Toastify__progress-bar-theme--light, .modal-erro .Toastify__progress-bar-theme--light {
+    background: transparent;
+}
+
+.modal-sucesso-conteudo, .modal-erro-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.check-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}

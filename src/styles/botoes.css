@@ -1,0 +1,38 @@
+button {
+    border: none;
+
+    background-color: #DA0175;
+    color: white;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-rosa-medio {
+    background-color: var(--cor-princical-rosa-medio);
+    color: var(--cor-cinza-8);
+}
+
+.btn-cinza-8 {
+    background-color: var(--cor-cinza-8);
+    color: var(--cor-princical-verde-medio);
+    border: 1px solid #DEDEE9;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.btn-cadastro-login {
+    width: 160px;
+    height: 33px;
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}

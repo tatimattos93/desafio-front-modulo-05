@@ -1,0 +1,82 @@
+.card-clientes-conteudo {
+    width: 55.6rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    color: var(--cor-cinza-2);
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-clientes-conteudo div.card-clientes-header {
+    width: 100%;
+    padding: 1.8rem 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--cor-cinza-8);
+}
+
+.card-clientes-conteudo div.card-clientes-header div.header-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-clientes-conteudo div.card-clientes-header div.header-titulo img {
+    width: 2.4rem;
+    margin-right: 8px;
+}
+
+.card-clientes-conteudo div.card-clientes-header .numero-cobrancas {
+    padding: 0 15px;
+    border-radius: 8px;
+}
+
+.card-clientes-conteudo div.card-clientes-header .numero-cobrancas.clientes-em-dia {
+    color: var(--cor-apoio-letra-azul);
+    background: var(--cor-apoio-container-azul);
+}
+
+.card-clientes-conteudo div.card-conteudo {
+    padding: 8px 25px;
+
+}
+
+.card-clientes-conteudo div.card-conteudo div.titulo-tabela,
+.card-clientes-conteudo div.card-conteudo div.conteudo-tabela {
+    width: 100%;
+    padding: 20px 0;
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar';
+    grid-template-columns: 160px 100px 115px;
+    gap: 72px;
+    align-items: center;
+    justify-items: flex-start;
+    border-bottom: 1px solid var(--cor-cinza-8);
+}
+
+.card-clientes-conteudo div.card-conteudo div.conteudo-tabela {
+    padding: 15px 0;
+}
+
+.card-clientes-conteudo div.card-conteudo div.conteudo-tabela {
+    color: #6E6E85;
+}
+
+.card-clientes-conteudo div.card-footer {
+    padding: 12px 0;
+}
+
+.card-clientes-conteudo div.card-footer a {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--cor-princical-rosa-medio);
+    text-decoration: underline;
+    cursor: pointer;
+}

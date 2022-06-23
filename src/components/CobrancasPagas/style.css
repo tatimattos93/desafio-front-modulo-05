@@ -1,0 +1,71 @@
+.card-cobrancas-conteudo {
+    width: 36.0rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+    color: var(--cor-cinza-2);
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-cobrancas-conteudo div.card-header {
+    width: 100%;
+    padding: 1.8rem 2.4rem 1.8rem 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--cor-cinza-8);
+}
+
+.card-cobrancas-conteudo div.card-header .numero-cobrancas {
+    padding: 0 15px;
+    border-radius: 8px;
+}
+
+.card-cobrancas-conteudo div.card-header .numero-cobrancas.cobranca-paga {
+    color: var(--cor-apoio-letra-azul);
+    background: var(--cor-apoio-container-azul);
+}
+
+.card-cobrancas-conteudo div.card-conteudo {
+    padding: 8px 25px;
+
+}
+
+.card-cobrancas-conteudo div.card-conteudo div.titulo-tabela,
+.card-cobrancas-conteudo div.card-conteudo div.conteudo-tabela {
+    width: 100%;
+    padding: 20px 0;
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar';
+    grid-template-columns: 108px 121px 76px;
+    gap: 8px;
+    align-items: center;
+    justify-items: flex-start;
+    border-bottom: 1px solid var(--cor-cinza-8);
+}
+
+.card-cobrancas-conteudo div.card-conteudo div.conteudo-tabela {
+    padding: 15px 0;
+}
+
+.card-cobrancas-conteudo div.card-conteudo div.conteudo-tabela {
+    color: #6E6E85;
+}
+
+.card-cobrancas-conteudo div.card-footer {
+    padding: 12px 0;
+}
+
+.card-cobrancas-conteudo div.card-footer a {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--cor-princical-rosa-medio);
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.iconeFiltro {
+    padding: 8px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 16px;
+
+    cursor: pointer;
+}
+
+div.modal-filtro.pg-clientes {
+    bottom: -276px;
+    right: -30px;
+}

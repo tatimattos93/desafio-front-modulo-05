@@ -1,0 +1,50 @@
+.modal-cliente {
+    width: 600px;
+    height: 100%;
+
+    padding: 4rem 5.6rem;
+}
+
+.modal-cliente button {
+    width: 234px;
+    height: 33px;
+}
+
+div.display-row.row-btn {
+    margin-top: 15px;
+}
+
+.titulo-cliente {
+    display: flex;
+    align-self: start;
+    gap: 1.6rem;
+
+    margin-bottom: 1.6rem;
+}
+
+.form-cliente label {
+    margin-bottom: 0.2rem;
+}
+
+.form-cliente input {
+    margin-bottom: 0.8rem;
+    height: 35px;
+}
+
+.form-cliente input.mb12 {
+    margin-bottom: 1.2rem;
+}
+
+.display-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-column input {
+    width: 235px;
+}

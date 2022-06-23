@@ -1,0 +1,52 @@
+div.detalhes-cobranca {
+    align-self: flex-start;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+div.detalhes-cobranca span.fw400 {
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+div.detalhes-cobranca div.detalhes-cobranca-grid {
+    display: grid;
+    grid-template-areas:
+        'topbar topbar';
+    grid-template-columns: 140px 100px;
+    align-items: center;
+    gap: 50px;
+}
+
+div.mr20 {
+    margin-right: 20px;
+}
+
+div.detalhes-cobranca span.fw400.mb0 {
+    margin-bottom: 0;
+}
+
+div.detalhes-cobranca span.fw400.mb0 span.status-atual {
+    font-weight: 600;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+div.detalhes-cobranca span.fw400.mb0 span.cobranca-paga {
+    color: var(--cor-apoio-letra-azul);
+    background: var(--cor-apoio-container-azul);
+}
+
+div.detalhes-cobranca span.fw400.mb0 span.cobranca-previsto {
+    color: var(--cor-apoio-letra-amarelo);
+    background: var(--cor-apoio-container-amarelo);
+}
+
+div.detalhes-cobranca span.fw400.mb0 span.cobranca-vencida {
+    color: var(--cor-apoio-letra-rosa);
+    background: var(--cor-apoio-container-rosa);
+}

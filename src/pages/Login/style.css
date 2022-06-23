@@ -1,0 +1,34 @@
+.imagem-login{
+    height: 100vh;
+    width: 35%;
+
+    display: flex;
+    justify-content: center;
+    background-image: url('../../assets/backgroundLogin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem-login h1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+
+    width: 388px;
+    height: 93px;
+    margin-top: 158px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #034A2A;
+}
+
+.imagem-login span {
+    height: 100vh;
+    width: 35%;
+    left: 0;
+    top: -0.5px;
+    position: absolute;
+    z-index: 1;
+    background: rgba(3, 74, 42, 0.05)
+}

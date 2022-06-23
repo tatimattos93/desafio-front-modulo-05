@@ -1,0 +1,131 @@
+.container-detalhes-cliente {
+    width: 1115px;
+    color: var(--cor-cinza-2);
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px 24px 24px;
+}
+
+.container-detalhes-cliente div.detalhes-cliente-titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-detalhes-cliente div.detalhes-cliente-titulo button {
+    padding: 4px 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-detalhes-cliente div.dados-cliente div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+.container-detalhes-cliente div.dados-cliente span {
+    font-weight: 400;
+}
+
+.container-detalhes-cliente div.dados-cliente.primeira-linha {
+    margin-top: 18px;
+
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar space space space';
+    grid-template-columns: 1.52fr 1.18fr 1.50fr 1fr 1fr 0.3fr;
+}
+
+.container-detalhes-cliente div.dados-cliente.segunda-linha {
+    margin-top: 55px;
+
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar topbar topbar topbar';
+    grid-template-columns: 1.52fr 1.18fr 1.50fr 1fr 1fr 0.3fr;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente-titulo,
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente {
+    padding: 12px 0;
+    border-bottom: 2px solid var(--cor-cinza-8);
+
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar topbar topbar space space';
+    grid-template-columns: 1.2fr 1.2fr 1fr 1fr 3fr 0.5fr 0.5fr;
+    align-items: center;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente-titulo {
+    padding: 20px 0;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente-titulo .ordenar-clientes {
+    justify-self: flex-start;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente-titulo .ordenar-clientes img {
+    cursor: pointer;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente span {
+    color: var(--cor-cinza-3);
+    font-weight: 400;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente button {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+    max-width: 35px;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela-cob-cliente button img {
+    margin-bottom: 4px;
+    height: 16px;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente button span {
+    font-size: 10px;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente button span.editar-cobranca {
+    color: var(--cor-cinza-3);
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente button span.deletar-cobranca {
+    color: var(--cor-feedback-letra-toast-vermelho);
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente div.cliente-status span.status-atual {
+    font-weight: 600;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente span.cobranca-paga {
+    color: var(--cor-apoio-letra-azul);
+    background: var(--cor-apoio-container-azul);
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente span.cobranca-previsto {
+    color: var(--cor-apoio-letra-amarelo);
+    background: var(--cor-apoio-container-amarelo);
+}
+
+.container-detalhes-cliente div.tabela-cobrancas-cliente div.tabela-cob-cliente span.cobranca-vencida {
+    color: var(--cor-apoio-letra-rosa);
+    background: var(--cor-apoio-container-rosa);
+}

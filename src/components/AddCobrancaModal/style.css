@@ -1,0 +1,81 @@
+.modal-cobranca {
+    padding: 48px 56px 40px;
+}
+
+.modal-cobranca button {
+    width: 234px;
+    height: 33px;
+    margin-top: 32px;
+}
+
+.titulo-cliente {
+    display: flex;
+    align-self: start;
+    gap: 1.6rem;
+
+    margin-bottom: 1.6rem;
+}
+
+.form-cobranca input {
+    margin-bottom: 0.8rem;
+}
+
+.form-cobranca input.mb12 {
+    margin-bottom: 1.2rem;
+}
+
+.form-cobranca textarea.input-descricao {
+    all: unset;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 16px;
+    height: 88px;
+    text-align: start;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    cursor: text;
+}
+
+.form-cobranca textarea.input-descricao.input-erro {
+    border: 1px solid var(--cor-feedback-erro-vermelho);
+}
+
+label.selecionar-status {
+    padding: 12px 16px;
+    background: #F0F0F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.selecionar-status input {
+    all: unset;
+    box-sizing: border-box;
+
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background: url('../../assets/iconeVazio.svg');
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.selecionar-status input:checked {
+    background: url('../../assets/iconeCheck.svg');
+}
+
+.display-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.display-column input {
+    width: 235px;
+}

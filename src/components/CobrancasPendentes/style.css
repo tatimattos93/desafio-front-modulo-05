@@ -1,0 +1,4 @@
+.card-cobrancas-conteudo div.card-header .numero-cobrancas.cobranca-prevista {
+    color: var(--cor-apoio-letra-amarelo);
+    background: var(--cor-apoio-container-amarelo);
+}

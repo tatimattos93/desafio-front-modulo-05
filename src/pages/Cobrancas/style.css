@@ -1,0 +1,112 @@
+.conteudo-cobrancas div.container-clientes {
+    justify-content: space-between;
+}
+
+.conteudo-cobrancas div.container-clientes div.titulo-cobrancas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas {
+    width: 1115px;
+    color: var(--cor-cinza-2);
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px 24px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.ordenar {
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.ordenar img {
+    cursor: pointer;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob-titulo,
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob {
+    padding: 12px 0;
+    border-bottom: 2px solid var(--cor-cinza-8);
+
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar topbar topbar topbar space space';
+    grid-template-columns: 1.2fr 1.2fr 1fr 1.6fr 1.2fr 2.5fr 0.5fr 0.5fr;
+    align-items: center;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob-titulo {
+    padding: 0 0 20px;
+}
+
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob span {
+    color: var(--cor-cinza-3);
+    font-weight: 400;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob button {
+    all: unset;
+    box-sizing: border-box;
+    max-width: 35px;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tabela-cob button img {
+    margin-bottom: 4px;
+    height: 16px;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob button span {
+    font-size: 10px;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob button span.editar-cobranca {
+    color: var(--cor-cinza-3);
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob button span.deletar-cobranca {
+    color: var(--cor-feedback-letra-toast-vermelho);
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob div.cliente-status span.status-atual {
+    font-weight: 600;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob span.cobranca-paga {
+    color: var(--cor-apoio-letra-azul);
+    background: var(--cor-apoio-container-azul);
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob span.cobranca-previsto {
+    color: var(--cor-apoio-letra-amarelo);
+    background: var(--cor-apoio-container-amarelo);
+}
+
+.conteudo-cobrancas div.tabela-cobrancas div.tabela-cob span.cobranca-vencida {
+    color: var(--cor-apoio-letra-rosa);
+    background: var(--cor-apoio-container-rosa);
+}
+
+.pesquisa-sr-center {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #F08889;
+    margin-bottom: 20px;
+}

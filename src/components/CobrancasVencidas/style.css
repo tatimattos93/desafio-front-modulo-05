@@ -1,0 +1,4 @@
+.card-cobrancas-conteudo div.card-header .numero-cobrancas.cobranca-vencida {
+    color: var(--cor-apoio-letra-rosa);
+    background: var(--cor-apoio-container-rosa);
+}

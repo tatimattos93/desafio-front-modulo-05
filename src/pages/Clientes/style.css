@@ -1,0 +1,142 @@
+.titulo-clientes {
+    color: #0E8750;
+    margin-right: 103px;
+    margin-top: 70px;
+}
+
+.iconeCadastro {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+
+.container-clientes {
+    width: 1109px;
+    height: 46px;
+    color: var(--cor-cinza-2);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container-clientes button {
+    margin-left: 311px;
+    width: 267px;
+    height: 33px;
+}
+
+.input-pesquisa {
+    all: unset;
+    background-color: white;
+    border-radius: 10px;
+    width: 318px;
+    height: 25px;
+    padding: 7px 8px;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    box-shadow: rgba(218, 1, 117, 0.05) 0px 7px 29px 0px;
+}
+
+.lupaPesquisa {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.container-tabelaClientes {
+    width: 1116px;
+    border-radius: 30px;
+    padding: 12px 23px;
+    color: var(--cor-cinza-2);
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tabela-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordenar-clientes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.ordenar-clientes img {
+    cursor: pointer;
+}
+
+.tabela-clientes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-tabelaClientes div.tabela-sub.subtitulo {
+    padding: 20px 0;
+    color: var(--cor-cinza-2);
+}
+
+.container-tabelaClientes div.tabela-clientes {
+    padding: 8px 0;
+}
+
+.container-tabelaClientes div.tabela-sub,
+.container-tabelaClientes div.tabela-clientes {
+    max-width: 100%;
+    color: var(--cor-cinza-3);
+    display: grid;
+    grid-template-areas:
+        'topbar topbar topbar topbar topbar topbar';
+    grid-template-columns: 1.5fr 1.2fr 1.5fr 1.2fr 1.2fr 1.2fr;
+    gap: 2.4rem;
+    align-items: center;
+    justify-items: flex-start;
+    border-bottom: 1px solid var(--cor-cinza-8);
+}
+
+.tabela-clientes div.cliente-status .status-atual {
+    font-weight: 600;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+.tabela-clientes div.cliente-status .cliente-inadimplente {
+    color: var(--cor-apoio-letra-rosa);
+    background: var(--cor-apoio-container-rosa);
+}
+
+.tabela-clientes div.cliente-status .cliente-em-dia {
+    padding: 0 26px;
+    color: var(--cor-apoio-letra-azul);
+    background: var(--cor-apoio-container-azul);
+}
+
+button.add-cobranca {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button.add-cobranca img {
+    height: 2.4rem;
+}
+
+button.add-cobranca span {
+    font-weight: 600;
+    font-size: 10px;
+    color: var(--cor-princical-rosa-medio);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

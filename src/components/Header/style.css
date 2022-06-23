@@ -1,0 +1,132 @@
+header {
+    width: 100%;
+    height: 112px;
+    padding: 40px 50px 4px;
+    border-bottom: 1px solid var(--cor-princical-verde-claro);
+    justify-self: flex-start;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div.nome-pagina {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div.nome-pagina h1 {
+    margin-bottom: 20px;
+}
+
+header div.nome-pagina span {
+    align-self: flex-end;
+    color: var(--cor-princical-verde-medio);
+}
+
+header div.nome-pagina span.marginLados10 {
+    margin: 0 10px;
+}
+
+header div.nome-pagina span.corCinza3 {
+    color: var(--cor-cinza-3);
+}
+
+header div.cliente-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+header div.cliente-header div.info-usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-right: 1rem;
+}
+
+header div.cliente-header button.btn-header {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+
+header div.modal-editar-sair {
+    min-width: 92px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 8px;
+    position: absolute;
+    top: 3.0rem;
+    right: -5.2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    z-index: 1;
+}
+
+header div.modal-editar-sair button.btn-header {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div.modal-editar-sair button.btn-header img.btn-editar-usuario {
+    height: 24px;
+}
+
+header div.modal-editar-sair .seta-background-modal {
+    position: absolute;
+    top: -8px;
+    left: 18px;
+}
+
+header div.modal-editar-sair span {
+    font-size: 8px;
+}
+
+header div.modal-editar-sair button.btn-header {
+    color: var(--cor-cinza-3);
+    font-size: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+header div.modal-editar-sair button.btn-header img.btn-editar-usuario {
+    width: 18px;
+}
+
+header div.iniciais-usuario {
+    padding: 0.8rem;
+    background-color: var(--cor-cinza-6);
+    border-radius: 50%;
+}
+
+header .iniciais-usuario h3.font22 {
+    font-size: 2.2rem;
+}
+
+header h3.h3-semi-negrito {
+    font-family: 'Nunito';
+    color: var(--cor-princical-verde-medio);
+}
+
+header div.modal-editar-sair {
+    font-family: 'Nunito';
+    color: var(--cor-princical-verde-medio);
+}

@@ -1,0 +1,53 @@
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.h3-negrito {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.h3-semi-negrito {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.subtitulo {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.corpo-normal {
+  font-family: 'Nunito';
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.corpo-pequeno {
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.corpo-minusculo {
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 1.2rem;
+}

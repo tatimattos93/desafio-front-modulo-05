@@ -1,0 +1,67 @@
+input {
+    height: 35px;
+    width: 100%;
+    padding: 15px;
+    color: var(--cor-cinza-2);
+
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+input::placeholder {
+    color: var(--cor-cinza-4);
+}
+
+input.input-erro {
+    border: 1px solid var(--cor-feedback-erro-vermelho);
+}
+
+label {
+    font-family: 'Nunito';
+    font-size: 14px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.input-flex-column {
+    width: 100%;
+    margin-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+span.mensagem-erro {
+    color: var(--cor-feedback-erro-vermelho);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+
+span.mensagem-erro.botton0 {
+    bottom: 0;
+}
+
+span.mensagem-erro.botton-4 {
+    bottom: -4px;
+}
+
+input.input-number::-webkit-outer-spin-button,
+input.input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input.input-number[type=number] {
+    -moz-appearance: textfield;
+}

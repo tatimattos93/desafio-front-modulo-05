@@ -1,0 +1,55 @@
+.modal-editar {
+    padding: 4.0rem 5.6rem;
+}
+
+.input-editar {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-editar input {
+    margin-bottom: 1.5rem;
+}
+
+.input-senha {
+    width: 100%;
+  
+}
+
+.nova-senha {
+    position: relative;
+}
+
+.nova-senha img {
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+}
+
+.confirma-senha {
+    position: relative;
+}
+
+.confirma-senha img {
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+}
+
+.display-column-input {
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.display-column-input input {
+    width: 178px;
+}
+
+.btn-editar {
+    width: 50%;
+    height: 4.4rem;
+    align-self: center;
+}

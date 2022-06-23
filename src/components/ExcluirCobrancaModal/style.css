@@ -1,0 +1,30 @@
+.modal-excluir{
+    position: relative;
+    width: 600px;
+    height: 400px;  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-excluir span {
+    color: var(--cor-feedback-letra-toast-amarelo);
+}
+.btn-exclusao {
+    margin-top: 28px;
+}
+.btn-excluir {
+    width: 100px;
+    height: 24px;
+    font-size: 1.8rem;
+    border-radius: 4px;
+}
+.nao {
+    margin-right: 16px;
+    background-color: var(--cor-feedback-fundo-toast-rosa);
+    color: var(--cor-feedback-letra-toast-vermelho);
+}
+.sim {
+    background-color: var(--cor-princical-verde-claro);
+    color: var(--cor-princical-verde-escuro);
+}

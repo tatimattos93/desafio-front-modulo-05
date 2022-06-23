@@ -1,0 +1,64 @@
+.backdrop {
+    background-color: rgb(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    cursor: default;
+
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1;
+}
+
+.modal {
+    position: relative;
+
+    background-color: #FFFDFD;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal h2 {
+    margin-bottom: 2.2rem;
+}
+
+.modal input {
+    height: 4.4rem;
+    color: var(--cor-cinza-2);
+}
+
+.modal input::placeholder {
+    color: var(--cor-cinza-4);
+}
+
+.modal label {
+    margin-bottom: 0.6rem;
+    color: var(--cor-cinza-2);
+}
+
+.fechar-icone {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    cursor: pointer;
+}
+
+.form-modal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .display-row {
+    gap: 2.4rem;
+}
